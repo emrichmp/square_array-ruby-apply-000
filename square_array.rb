@@ -5,8 +5,7 @@ def square_array(array)
   counter = 0
   new_array = []
   array.each do |num|
-    square = num * num
-    new_array[counter] = square
+    new_array[counter] = num * num
     counter += 1
   end
   puts "#{new_array}"

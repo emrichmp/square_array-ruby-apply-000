@@ -8,6 +8,7 @@ def square_array(array)
     new_array[counter] = num * num
     counter += 1
   end
+  return new_array
   puts "#{new_array}"
 end
 
